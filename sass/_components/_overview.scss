@@ -1,0 +1,58 @@
+.animate {
+  .overview__left {
+    animation: scaleFromLeft 0.9s ease-in backwards;
+  }
+
+  .overview__right {
+    animation: rotate180 1.8s ease-in 0.1s backwards;
+  }
+}
+
+.overview {
+  perspective: 150rem;
+
+  &__left {
+    margin-top: 4.8rem;
+  }
+
+  &__right {
+    box-shadow: $box-shadow-light;
+    overflow: hidden;
+    backface-visibility: hidden;
+    width: 90%;
+  }
+
+  //   left
+
+  &__icon-box {
+  }
+  &__icon {
+    color: $color-primary;
+  }
+  &__title {
+  }
+
+  // btn__inline
+  &__btn {
+    display: inline-block;
+    font-size: $font-size-md;
+    color: $color-tertiary;
+    border-bottom: 1px solid $color-tertiary;
+    padding-bottom: 0.05rem;
+
+    @include translateUpAndDown;
+  }
+
+  // right
+
+  &__header {
+    overflow: hidden;
+    background: $color-black;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+  }
+}

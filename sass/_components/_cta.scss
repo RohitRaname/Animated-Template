@@ -1,0 +1,113 @@
+.animate .cta__feature-box {
+  &--3 {
+    animation: opacitys 0.4s linear backwards;
+  }
+  &--2 {
+    animation: opacitys 0.4s linear 0.4s backwards;
+  }
+  &--1 {
+    animation: opacitys 0.4s linear 0.8s backwards;
+  }
+}
+.animate .cta__footer {
+  animation: moveBottomIn 0.4s ease-in 1s backwards;
+}
+
+.cta {
+  color: $color-shadow;
+  &__header {
+  }
+  &__middle {
+  }
+  &__footer {
+  }
+
+  // header
+  &__heading {
+    color: $color-grey-light;
+  }
+
+  // middle
+
+  &__feature {
+    &-box {
+    }
+
+    &-icon {
+      &-box {
+        background: $color-grey;
+      }
+      & {
+        color: $color-black-dark;
+      }
+    }
+    &-title {
+      color: $color-grey-dark;
+    }
+  }
+
+  // footer
+
+  &__footer {
+    margin: 0 auto;
+    max-width: 80rem;
+    width: 100%;
+    border: 1px solid $color-grey-dark;
+    margin-top: 12.4rem;
+    padding: 4.8rem 3.2rem;
+
+    &-text {
+    }
+    &-heading {
+      color: $color-grey-light;
+    }
+  }
+
+  &__form {
+    border-radius: 6px;
+    display: grid;
+    gap: 1.2rem;
+  }
+  &__label,
+  &__input {
+    display: block;
+  }
+
+  &__label {
+    color: $color-grey-dark;
+    font-size: $font-size-sm;
+  }
+  &__input {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1.6rem;
+    padding: 0.8rem 2.4rem;
+    padding-left: 0.8rem;
+    background: rgba($color-white, 0.96);
+    font-size: $font-size-md;
+    color: $color-black-dark;
+    font-weight: 400;
+    font-family: inherit;
+
+    &::placeholder {
+      color: $color-shadow-light;
+    }
+  }
+
+  &__btn {
+    font-family: inherit;
+    padding: 1.2rem 3.2rem;
+    border: none;
+    background: $color-black;
+    border: 1px solid $color-grey;
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: $font-size-md;
+    margin-top: 3.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    @include translateUpAndDown;
+  }
+}

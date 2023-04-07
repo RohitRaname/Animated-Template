@@ -1,0 +1,25 @@
+.hero {
+  width: 60%;
+  @include abs-center;
+  top: 45%;
+  text-align: center;
+  z-index: 100;
+
+  &__text-content {
+  }
+  &__heading {
+    color: $color-grey-light !important;
+    animation: moveBottomIn 1s ease-in 0.5s;
+    animation-fill-mode: backwards;
+  }
+  &__text {
+    color: $color-grey-dark !important;
+    animation: moveLeftIn 1s ease-in 1.4s;
+    animation-fill-mode: backwards;
+  }
+}
+
+// text phele
+// img badme
+// no playing tricks with user form or input
+// not too many animations

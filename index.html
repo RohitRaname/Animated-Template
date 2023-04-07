@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light/Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#" class="logo">Jacinto Desing</a>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="https://www.twitter.com" target="_blank">
+            <i class="nav__icon fab fa-facebook"></i
+          ></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="https://www.github.com" target="_blank">
+            <i class="nav__icon fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="https://www.facebook.com" target="_blank">
+            <i class="nav__icon fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="section-hero">
+        <div class="hero container container--130">
+          <div class="hero__text-content">
+            <h1 class="hero__heading heading-1">Welcome your epiphany</h1>
+            <p class="hero__text line line--md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              omnis vitae iste dolorem quibusdam amet voluptates totam numquam
+              libero sed? Veniam ipsam mollitia, perferendis minus molestiae
+              repellendus maiores non ipsa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="feature container grid grid--cols-3--sm">
+          <div
+            class="feature__box feature__box--1 padding-sm shadow-l radius-md"
+          >
+            <div
+              class="feature__icon-box margin-bottom-lw feature__icon-box--1"
+            >
+              <i class="fas feature__icon fa-robot feature__icon--1"></i>
+            </div>
+            <h6 class="feature__title heading-6">I'm a Robot</h6>
+            <p class="feature__text line line--sm">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              commodi. Accusamus molestiae eius doloremque provident?
+            </p>
+          </div>
+          <div
+            class="feature__box feature__box--2 padding-sm shadow-l radius-md"
+          >
+            <div
+              class="feature__icon-box margin-bottom-lw feature__icon-box--2"
+            >
+              <i class="fas feature__icon fa-atom feature__icon--2"></i>
+            </div>
+            <h6 class="feature__title heading-6">I'm a Robot</h6>
+            <p class="feature__text line line--sm">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              commodi. Accusamus molestiae eius doloremque provident?
+            </p>
+          </div>
+          <div
+            class="feature__box feature__box--3 padding-sm shadow-l radius-md"
+          >
+            <div
+              class="feature__icon-box margin-bottom-lw feature__icon-box--3"
+            >
+              <i class="fas feature__icon fa-bolt feature__icon--3"></i>
+            </div>
+            <h6 class="feature__title heading-6">I'm a Robot</h6>
+            <p class="feature__text line line--sm">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              commodi. Accusamus molestiae eius doloremque provident?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-overview section-hidden">
+        <div class="overview grid grid--cols-2 container">
+          <div class="overview__left">
+            <div class="overview__icon-box icon-box margin-bottom-sm">
+              <i class="fas fa-star overview__icon"></i>
+            </div>
+            <h3 class="overview__title heading-3">
+              trying new things is great!
+            </h3>
+
+            <p class="line line--md margin-bottom-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              inventore tempore voluptatibus, accusamus dolor obcaecati?
+            </p>
+
+            <p class="line line--md margin-bottom-md">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+              facilis et dolore consequuntur amet iure cumque voluptates,
+              officia veritatis a!
+            </p>
+
+            <a href="#" class="overview__btn btn btn--primary"
+              >Check tailwind starter kit! &rarr;</a
+            >
+          </div>
+
+          <div class="overview__right radius-bg">
+            <header class="overview__header">
+              <img
+                class="overview__img"
+                src="https://images.unsplash.com/photo-1512572525676-f9b59951929e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1252&q=80"
+                alt="robot img"
+              />
+            </header>
+
+            <div class="overview__footer padding-md">
+              <h3 class="heading-5">More than meets the eye</h3>
+              <p class="line line--sm">
+                I feel like i've mentioned before that i'm robot and that
+                continues to be true, even to this day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about section-hidden">
+        <div class="about container grid grid--cols-2">
+          <img
+            src="https://images.unsplash.com/photo-1553678324-f84674bd7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            class="about__img radius-bg"
+            alt="robot factory"
+          />
+          <div class="about__content">
+            <div class="icon-box about__main-icon-box margin-bottom-sm">
+              <i class="fas fa-rocket about__icon about__icon"></i>
+            </div>
+            <h3 class="heading-3">A growing company</h3>
+            <p class="line line--md margin-bottom-md">
+              the extenstion comes with three pre-build pages to help youget
+              started fsater.You can change the text and images and you're good
+              to go.
+            </p>
+
+            <ul class="about__features">
+              <div class="icon-box about__feature-icon-box icon-box--sm">
+                <i class="fas fa-puzzle-piece about__icon"></i>
+              </div>
+              <p class="about__feature line line--sm">
+                Carefully crafter components
+              </p>
+              <div class="icon-box icon-box--sm">
+                <i class="fas fa-chalkboard about__icon"></i>
+              </div>
+              <p class="about__feature about__text line line--sm">
+                Carefully crafter components
+              </p>
+              <div class="icon-box icon-box--sm">
+                <i class="far fa-paper-plane about__icon"></i>
+              </div>
+              <p class="about__feature about__text line line--sm">
+                Carefully crafter components
+              </p>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-member section-hidden">
+        <div class="member container container--130">
+          <header class="member__header">
+            <h3 class="heading-3 member__heading">Here are out heroes</h3>
+            <p class="line line--md member__subheading margin-bottom-md">
+              According to the National Oceanic and
+            </p>
+          </header>
+
+          <footer class="member__footer grid grid--cols-4">
+            <div class="member__box member__box--1">
+              <img
+                src="https://randomuser.me/api/portraits/men/20.jpg"
+                alt=""
+                class="member__img radius-round margin-bottom-sm"
+              />
+              <p class="member__name line line--md">Ryan Thompson</p>
+              <p class="member__work line line--lw margin-bottom-lw">
+                Web Developer
+              </p>
+              <ul class="member__social-list">
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-google"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="member__box member__box--2">
+              <img
+                src="https://randomuser.me/api/portraits/men/2.jpg"
+                alt=""
+                class="member__img radius-round margin-bottom-sm"
+              />
+              <p class="member__name line line--md">Romina smdid</p>
+              <p class="member__work line line--lw margin-bottom-lw">
+                Marketing Specialist
+              </p>
+              <ul class="member__social-list">
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-google"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="member__box member__box--3">
+              <img
+                src="https://randomuser.me/api/portraits/men/5.jpg"
+                alt=""
+                class="member__img radius-round margin-bottom-sm"
+              />
+              <p class="member__name line line--md">Alexa smith</p>
+              <p class="member__work line line--lw margin-bottom-lw">
+                UI/UX Designer
+              </p>
+              <ul class="member__social-list">
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-google"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="member__box member__box--4">
+              <img
+                src="https://randomuser.me/api/portraits/men/35.jpg"
+                alt=""
+                class="member__img radius-round margin-bottom-sm"
+              />
+              <p class="member__name line line--md">Jenna smrdi</p>
+              <p class="member__work line line--lw margin-bottom-lw">
+                Founder and Ceo
+              </p>
+              <ul class="member__social-list">
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-google"></i
+                  ></a>
+                </li>
+                <li class="member__socail-item">
+                  <a href="#" class="member__social-link">
+                    <i class="member__social-icon fab fa-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <section class="section-cta section-hidden">
+        <div class="cta container">
+          <header class="cta__header margin-bottom-bg">
+            <h2 class="heading-2 cta__heading">Build something</h2>
+            <p class="line line--md">
+              Put the potentially record maximum sea ice extent this year to low
+              ice.
+            </p>
+            <p class="line line--md">
+              According To me I am the best. Iam the the beast.
+            </p>
+          </header>
+
+          <!-- first html then class then grid margin border padding  -->
+          <div class="cta__middle grid grid--cols-3 margin-bottom-bg">
+            <div class="cta__feature-box cta__feature-box--1">
+              <div
+                class="icon-box cta__feature-icon-box margin-bottom-lw icon-box--md"
+              >
+                <i class="fas fa-medal cta__feature-icon"></i>
+              </div>
+              <p class="cta__feature-title heading-6">Excellent Services</p>
+              <p class="line line--sm">
+                Some quick example text to build on card title and make up the
+                buld of the card's content.
+              </p>
+            </div>
+            <div class="cta__feature-box cta__feature-box--2">
+              <div
+                class="icon-box cta__feature-icon-box margin-bottom-lw icon-box--md"
+              >
+                <i class="fas fa-poll cta__feature-icon"></i>
+              </div>
+              <p class="cta__feature-title heading-6">Grow your market</p>
+              <p class="line line--sm">
+                Some quick example text to build on card title and make up the
+                buld of the card's content.
+              </p>
+            </div>
+            <div class="cta__feature-box cta__feature-box--3">
+              <div
+                class="icon-box cta__feature-icon-box margin-bottom-lw icon-box--md"
+              >
+                <i class="fas fa-lightbulb cta__feature-icon"></i>
+              </div>
+              <p class="cta__feature-title heading-6">Launch time</p>
+              <p class="line line--sm">
+                Some quick example text to build on card title and make up the
+                buld of the card's content.
+              </p>
+            </div>
+          </div>
+
+          <!-- now margin and grid -->
+          <footer class="cta__footer radius-bg">
+            <div class="cta__footer-text margin-bottom-md">
+              <h4 class="cta__footer-heading heading-4">
+                Want to work with us?
+              </h4>
+              <p class="line line--md">
+                Complete this form and we will get back to you in 24hours
+              </p>
+            </div>
+
+            <form class="cta__form">
+              <label for="name" class="cta__label">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="name..."
+                minlength="3"
+                class="cta__input"
+                required
+              />
+              <label for="email" class="cta__label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="me@exmaple.com"
+                class="cta__input"
+                required
+              />
+              <label for="message" class="cta__label">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="cta__input"
+                cols="30"
+                rows="5"
+                placeholder="text us..."
+              ></textarea>
+
+              <button class="cta__btn">Send Message</button>
+            </form>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-hidden">
+      <div class="footer__social">
+        <h5 class="heading-5 footer__social-heading">Let's keep in touch</h5>
+        <p class="line line--md margin-bottom-sm">
+          Find us on any on these platforms, we respond 1-2 business days.
+        </p>
+        <div class="footer__social-icons">
+          <i class="fab footer__social-icon fa-twitter"></i>
+          <i class="fab footer__social-icon fa-facebook"></i>
+          <i class="fab footer__social-icon fa-google"></i>
+          <i class="fab footer__social-icon fa-githubr"></i>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h5 class="heading-7 margin-bottom-lw footer__title">Useful links</h5>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link line line--sm">About us</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Github</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Free products</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h5 class="heading-7 margin-bottom-lw footer__title">Useful links</h5>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link line line--sm">About us</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Github</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link line line--sm">Free products</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        copyright &copy; 2019 Tailwind Starter kit by creative Tim.
+      </div>
+    </footer>
+
+    <!-- Script -->
+  </body>
+</html>

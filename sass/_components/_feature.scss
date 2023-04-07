@@ -1,0 +1,51 @@
+
+.feature {
+  z-index: 100;
+  @include abs-center;
+  &__box {
+    background: $color-white;
+
+    &--2 {
+      transform: translateY(-2.5rem);
+    }
+
+    &--1 {
+      animation: moveLeftIn 1s ease-in 2.2s backwards;
+    }
+    &--2 {
+      animation: moveBottomInSpecial 1s ease-in 2.2s backwards;
+    }
+    &--3 {
+      animation: moveRightIn 1s ease-in 2.2s backwards;
+    }
+  }
+
+  &__icon {
+    &-box {
+      height: 4.4rem;
+      @include flex-center;
+      width: 4.4rem;
+      border-radius: 50%;
+
+      &--1 {
+        background: $gradient-primary;
+      }
+      &--2 {
+        background: $gradient-secondary;
+      }
+      &--3 {
+        background: $gradient-tertiary;
+      }
+    }
+    & {
+      font-size: 1.6rem;
+      color: $color-white;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1.2rem;
+  }
+  &__text {
+  }
+}

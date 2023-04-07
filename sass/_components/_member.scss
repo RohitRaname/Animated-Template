@@ -1,0 +1,66 @@
+.animate .member__box {
+  &--1 {
+    animation: opacitys 0.4s linear backwards;
+  }
+  &--2 {
+    animation: opacitys 0.4s linear 0.4s backwards;
+  }
+  &--3 {
+    animation: opacitys 0.4s linear 0.8s backwards;
+  }
+  &--4 {
+    animation: opacitys 0.4s linear 1.2s backwards;
+  }
+}
+
+.member {
+  &__header {
+  }
+  &__footer {
+  }
+
+  &__heading {
+    color: #087f5b;
+  }
+  &__subheading {
+    color: #099268;
+  }
+
+  &__box {
+  }
+  &__img {
+    max-width: 9.6rem;
+    width: 100%;
+
+    border: 3px solid #96f2d7;
+    // set max-width
+    // set width to 100%
+  }
+  &__name {
+    color: $color-black-dark;
+    font-weight: 400;
+  }
+  &__work {
+    margin-top: -0.4rem;
+    color: #087f5b;
+  }
+  &__social {
+    &-list {
+      @include flex-center;
+      gap: 2rem;
+      justify-content: start;
+    }
+    &-item {
+      display: inline-block;
+    }
+    &-link {
+      &:link,
+      &:visited {
+      }
+    }
+    &-icon {
+      font-size: $default-font-size;
+      color: #099268;
+    }
+  }
+}

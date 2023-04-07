@@ -1,0 +1,47 @@
+.section-hidden {
+  opacity: 0;
+  transition:all .3s;
+}
+
+.section-hero {
+  background: linear-gradient(
+      rgba($color-black, 0.65),
+      rgba($color-black, 0.65)
+    ),
+    url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.section-features {
+  position: relative;
+  margin: -14rem;
+  padding: 20rem 0;
+  margin-bottom: 0rem;
+}
+
+.section-overview {
+}
+
+.section-about {
+}
+.section-member {
+  background: $gradient-tertiary;
+  transform: skewY(-3.5deg);
+  padding: 2.4rem 0;
+  & > * {
+    transform: skewY(+3.5deg);
+  }
+}
+.section-cta {
+  background: $color-black;
+  transform: skewY(-3.5deg);
+  padding: 6.4rem 0;
+
+  & > * {
+    transform: skewY(+3.5deg);
+  }
+}

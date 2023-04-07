@@ -1,0 +1,38 @@
+.animate .about__img {
+  animation: -rotate180 1.4s ease-in 0.1s backwards;
+}
+
+.animate .about__content {
+  animation: scaleFromRight .5s ease-in  backwards;
+}
+.about {
+  perspective: 150rem;
+
+  &__img {
+    width: 90%;
+    max-height: 60rem;
+    object-fit: cover;
+    backface-visibility: hidden;
+  }
+
+  &__content {
+    padding-top: 5rem;
+  }
+
+  &__features {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 2.4rem;
+    align-items: center;
+  }
+  &__feature {
+    color: $color-black;
+  }
+
+  &__main-icon-box {
+    background-color: $color-tertiary-opacity;
+  }
+  &__icon {
+    color: $color-tertiary;
+  }
+}

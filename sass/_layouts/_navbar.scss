@@ -1,0 +1,29 @@
+.nav {
+  height: 7rem;
+  padding: 1.6rem 3.2rem;
+  font-size: $font-size-md;
+  @include flex-center;
+  justify-content: space-between;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  &__list {
+    @include flex-center;
+    gap: 2rem;
+    transform: translateY(1rem);
+  }
+  &__item {
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $color-grey-light;
+}
